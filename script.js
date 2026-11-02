@@ -16,7 +16,7 @@ siteNav.addEventListener("click", (event) => {
     }
 });
 
-const showDate = new Date(2026, 11, 6);
+const showDate = new Date(2026, 10, 7);
 const today = new Date();
 today.setHours(0, 0, 0, 0);
 document.getElementById("countdown").textContent = Math.max(
